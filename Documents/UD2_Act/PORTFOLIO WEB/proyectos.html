@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP - Adaptado para Jesús Rodríguez Álvarez
+	Página de Proyectos Detallados
+-->
+<html lang="es">
+	<head>
+		<title>Proyectos &amp; Despliegues | Jesús Rodríguez Álvarez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Catálogo detallado de proyectos de administración de sistemas, entornos LAMP, redes Cisco, infraestructura Cloud y automatización." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Proyectos Técnicos</h1>
+							<p>Catálogo de prácticas y arquitecturas desplegadas por Jesús Rodríguez Álvarez</p>
+							
+							<div class="nav-portfolio">
+								<a href="index.html">Inicio</a>
+								<a href="proyectos.html" class="active">Proyectos</a>
+								<a href="sobre-mi.html">Sobre Mí</a>
+								<a href="../CV WEB/index.html" target="_blank">CV Web</a>
+							</div>
+
+							<ul class="actions">
+								<li><a href="#proyectos-list" class="arrow scrolly"><span class="label">Ver Proyectos</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/pic02.jpg" alt="Proyectos Informáticos" /></span>
+						</div>
+					</section>
+
+				<!-- Main Projects Section -->
+					<section id="proyectos-list">
+						<header>
+							<h2>Catálogo Completo de Proyectos</h2>
+						</header>
+						<div class="content">
+							<p>A continuación se detallan los aspectos técnicos, configuraciones y aprendizajes de las principales prácticas realizadas en el ámbito de Administración de Sistemas Informáticos en Red (ASIR):</p>
+
+							<!-- Proyecto 1: Radio U-tad -->
+							<article class="project-card" style="border-left: 4px solid #4757bf;">
+								<h3>1. Prácticas en U-tad: Proyecto "Radio U-tad" (Departamento de Métricas)</h3>
+								<div>
+									<span class="tech-badge blue">Grafana</span>
+									<span class="tech-badge green">Prometheus</span>
+									<span class="tech-badge purple">Radio U-tad</span>
+									<span class="tech-badge">Monitorización de Servidores</span>
+									<span class="tech-badge blue">Prácticas U-tad</span>
+								</div>
+								<p><strong>Descripción:</strong> Participación activa durante las prácticas en U-tad integrándome en el departamento de métricas del proyecto interdisciplinar <strong>"Radio U-tad"</strong>. El objetivo principal fue desplegar y administrar la infraestructura de monitorización de rendimiento de los diferentes servidores encargados de la emisión, procesamiento y almacenamiento del proyecto.</p>
+								<p><strong>Responsabilidades y Logros Clave:</strong>
+								<ul>
+									<li><strong>Despliegue de Prometheus:</strong> Configuración de recolectores de métricas (<code>node_exporter</code> y exporters de servicios) en los distintos servidores de la infraestructura para capturar datos de CPU, memoria RAM, E/S de disco y tráfico de red en tiempo real.</li>
+									<li><strong>Diseño de Dashboards en Grafana:</strong> Creación de cuadros de mando visuales e interactivos para analizar el estado de salud, uso de recursos y tendencias de rendimiento de los servidores.</li>
+									<li><strong>Gestión de Alertas y Métricas:</strong> Definición de umbrales y reglas de alerta automatizadas para notificar al equipo ante cualquier anomalía o degradación del servicio en los servidores de Radio U-tad.</li>
+								</ul>
+								</p>
+							</article>
+
+							<!-- Proyecto 2: Redes Cisco Packet Tracer -->
+							<article class="project-card">
+								<h3>2. Infraestructura de Red Corporativa en Cisco Packet Tracer</h3>
+								<div>
+									<span class="tech-badge blue">Cisco Packet Tracer</span>
+									<span class="tech-badge green">VLANs</span>
+									<span class="tech-badge">Subnetting VLSM</span>
+									<span class="tech-badge purple">Inter-VLAN Routing</span>
+								</div>
+								<p><strong>Descripción:</strong> Diseño e implementación de la topología de red para una PYME dividida en diferentes departamentos (Administración, Ventas, IT y Servidores).</p>
+								<p><strong>Puntos Clave:</strong>
+								<ul>
+									<li>Segmentación de tráfico mediante VLANs 10, 20, 30 y 99 (Gestión).</li>
+									<li>Enrutamiento Inter-VLAN mediante subinterfaces en Router (Router-on-a-Stick).</li>
+									<li>Configuración de DHCP centralizado en Router y listas de control de acceso (ACLs) para restringir el acceso a la VLAN de Servidores.</li>
+								</ul>
+								</p>
+							</article>
+
+							<!-- Proyecto 3: Cloud AWS & Azure -->
+							<article class="project-card">
+								<h3>3. Despliegue de Entornos Cloud Híbridos en AWS &amp; Azure</h3>
+								<div>
+									<span class="tech-badge blue">AWS EC2</span>
+									<span class="tech-badge green">Azure VM</span>
+									<span class="tech-badge purple">Security Groups</span>
+									<span class="tech-badge">SSH / RDP</span>
+								</div>
+								<p><strong>Descripción:</strong> Aprovisionamiento de servidores en la nube utilizando Amazon Web Services y Microsoft Azure para pruebas de alta disponibilidad.</p>
+								<p><strong>Configuración:</strong>
+								<ul>
+									<li>Instancias Ubuntu Server 22.04 LTS en AWS EC2 con emparejamiento de claves SSH.</li>
+									<li>Asignación de IP elástica y configuración de Security Groups abriendo puertos HTTP (80), HTTPS (443) y SSH (22).</li>
+									<li>Creación de una red virtual (VNet) en Azure con subredes pública y privada.</li>
+								</ul>
+								</p>
+							</article>
+
+							<!-- Proyecto 4: MySQL & PL/SQL -->
+							<article class="project-card">
+								<h3>4. Sistema de Gestión de Base de Datos Relacional (MySQL &amp; PL/SQL)</h3>
+								<div>
+									<span class="tech-badge blue">MySQL</span>
+									<span class="tech-badge green">PL/SQL</span>
+									<span class="tech-badge purple">Triggers</span>
+									<span class="tech-badge">Stored Procedures</span>
+								</div>
+								<p><strong>Descripción:</strong> Diseño de modelo Entidad-Relación y desarrollo de scripts de base de datos para la gestión comercial y control de stock.</p>
+								<p><strong>Características:</strong>
+								<ul>
+									<li>Creación de tablas normalizadas en 3FN con claves primarias y foráneas.</li>
+									<li>Desarrollo de Triggers para auditoría automática de modificaciones en tablas críticas.</li>
+									<li>Procedimientos almacenados para el cálculo automatizado de facturación mensual.</li>
+								</ul>
+								</p>
+							</article>
+
+						</div>
+					</section>
+
+				<!-- Contact Footer -->
+					<section>
+						<header>
+							<h2>¿Quieres saber más?</h2>
+						</header>
+						<div class="content">
+							<p>Si deseas consultar el código fuente de las prácticas o ampliar detalles de cualquier despliegue, ponte en contacto conmigo.</p>
+							<ul class="actions">
+								<li><a href="index.html" class="button primary">Volver al Portafolio</a></li>
+								<li><a href="sobre-mi.html" class="button">Ver Mi Perfil</a></li>
+								<li><a href="../CV WEB/index.html" target="_blank" class="button">Ver CV Web</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Copyright -->
+					<div class="copyright">&copy; Jesús Rodríguez Álvarez. Todos los derechos reservados. Plantilla: <a href="https://html5up.net">HTML5 UP</a> (Paradigm Shift).</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,175 @@
+/* Custom styling for Jesús Rodríguez Álvarez Portfolio */
+
+/* Navigation bar styling */
+.nav-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.nav-portfolio a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-portfolio a:hover,
+.nav-portfolio a.active {
+    background: #4757bf;
+    border-color: #4757bf;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(71, 87, 191, 0.3);
+}
+
+/* Profile Photo */
+.profile-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    margin-bottom: 1.25rem;
+}
+
+/* Badges & Tags */
+.tech-badge {
+    display: inline-block;
+    background: #eef2f5;
+    color: #333d48;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dcdfe3;
+}
+
+.tech-badge.blue {
+    background: #e3f2fd;
+    color: #0d47a1;
+    border-color: #bbdefb;
+}
+
+.tech-badge.green {
+    background: #e8f5e9;
+    color: #1b5e20;
+    border-color: #c8e6c9;
+}
+
+.tech-badge.purple {
+    background: #f3e5f5;
+    color: #4a148c;
+    border-color: #e1bee7;
+}
+
+/* Project Card Styling */
+.project-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.75rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.project-card h3 {
+    margin-bottom: 0.75rem;
+    color: #2e3440;
+}
+
+.project-card p {
+    color: #4c566a;
+    line-height: 1.6;
+}
+
+/* Certification Grid */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cert-box {
+    background: #f8fafc;
+    border-left: 4px solid #4757bf;
+    padding: 1.25rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.cert-box h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.05rem;
+    color: #1e293b;
+}
+
+.cert-box p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+/* Code Snippet Box */
+.code-box {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1.25rem;
+    border-radius: 6px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.88rem;
+    overflow-x: auto;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+/* Contact Action Buttons */
+.btn-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Banner Styling for Sobre Mí */
+#wrapper > section.intro > .content {
+    background-color: #0f172a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper > section.intro > .content .image.fill img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 1280px) {
+    #wrapper > section.intro > .content {
+        min-height: 420px;
+        height: auto;
+    }
+}
+
